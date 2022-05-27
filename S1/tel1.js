@@ -150,8 +150,8 @@
 					sampleList.push(textMesh);
 					samplePosition.push(textMesh.position.z);
 				}
-				  LARCC  = ["ODS Detection","OAS Detection [Write]","OAS Detection [Execute]","OAS / ODS Detection with latest ED","RP Block",
-							  "DAC block","IPS Block","RP_Dynamic","RP_Static LOW","RP_Static MED","RP_Static HIGH","TIE with ATD","MAR","Final Protection"]
+				  LARCC  = ["Static AI","Behavioral AI","STAR Detection","Threat Intel Enrichment","Device Control",
+							  "Deception","Misdirection","Attack Surface Reduction","XDR Integrations","NGAV","Cloud Workload Protection","Watchtower Pro","Firewall Control","Final Protection"]
 							  
 				  for (ccxl = 0;ccxl<14;ccxl++) {
 					addLabel( LARCC[ccxl], new THREE.Vector3( 260, 0, 200-((600/13)*ccxl)));
