@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Correlation Paradox Visualization</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				color: #fff;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				background-color: #000;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				padding: 5px;
+			}
+			#dx3 {
+				position:fixed;
+				top:0px;
+				left: 10%;
+				width:90%;
+				height:10%;
+				overflow-x:auto;
+				overflow-y:auto;
+				background-color: #111;
+				z-index: 100;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="container"></div>
+		<div id="dx3" >
+		<a> SentinelOne Corelation Paradox Coverage - Zero Day Sample Set </a> <br>
+		<div style="text-align:left">
+
+			Expand <input  id="rng" type="range"  min=0 max=2.0 value=1.0 step=0.01 oninput="chp()" > <br>
+			Stack <input id="stk" type="checkbox"  value=0 onchange="chp()"> <br>
+		
+		</div>
+			<id="stat2"> <div id="sid"> </div>
+
+        </div>
+
+			<script src="../three.js-master/build/three.js"></script>
+			<script src="../three.js-master/examples/js/controls/OrbitControls.js"></script>
+	
+			<script src="../three.js-master/examples/js/Detector.js"></script>
+			<script src="../three.js-master/examples/js/libs/stats.min.js"></script>
+			 <script src="dat.js"> </script>
+			<script src="tel1.js"> </script>
+
+
+	</body>
+</html>
